@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-chunksize = 5000
+chunksize = 10000
 i = 0
 df = pd.read_excel("D:/python_excel/merck_all.xlsx")
 for chunk in np.array_split(df, len(df) // chunksize):
