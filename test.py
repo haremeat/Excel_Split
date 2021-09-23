@@ -12,4 +12,4 @@ display(df['A'])
 
 # 특정 row, column을 선택하기
 display(df.ix[0]['A'])
-display(df.loc[0]['B'])
+display(df.loc[0]['C'])
